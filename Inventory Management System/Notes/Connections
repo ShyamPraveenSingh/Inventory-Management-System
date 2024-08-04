@@ -1,0 +1,6 @@
+#Make sure to connect the Database to the Project by loading the driver.
+
+ It can be done by right click on:
+ Project-> Module Settings -> Add Library -> From Maven -> Search com.mysql and select the latest driver
+
+ Lesson 357 for more details

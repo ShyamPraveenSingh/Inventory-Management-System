@@ -1,0 +1,22 @@
+
+#Login into the SQL server using the terminal
+$ mysql -u your_username -p
+
+#Creating the database
+CREATE DATABASE inventory_db;
+
+USE inventory_db;
+
+CREATE TABLE items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    category VARCHAR(255) NOT NULL,
+    quantity INT NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
+
+#Verify the existing tables and their structure:
+$ SHOW TABLES;
+
+#See the structure of the items table:
+$ DESCRIBE items;
